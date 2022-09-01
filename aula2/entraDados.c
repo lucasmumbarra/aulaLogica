@@ -20,7 +20,7 @@ int main () {
     printf("Digite o sexo:");
     scanf("%c", &sexo);
 
-    printf("Idade %d altura %f salario %1f sexo %c", idade, altura, salario, sexo);
+    printf("Idade %d altura %f salario %lf sexo %c", idade, altura, salario, sexo);
 
     return 0;
 }
