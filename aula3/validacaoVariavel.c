@@ -2,28 +2,34 @@
 # include <stdlib.h>
 # include <locale.h>
 
-// Modelo errado
 int main () {
-  setlocale(LC_ALL, "Portuguese");
+    setlocale(LC_ALL, "Portuguese");
 
-  int ni;
-  float nf;
-  char nc;
+    float peso,altura,imc;
 
-  printf("Primeira aplicação com acentuação\n");
+    printf("Digite seu peso:\n");
+    scanf("%f",&peso);
+    printf("Digite sua altura:\n");
+    scanf("%f",&altura);
+    imc = (peso/(altura*altura));
+    printf("Seu peso é %.2f sua altura é %.2f e seu imc é %.2f\n", peso,altura,imc);
 
-  nc = 65;
-  printf( "nc = %c\n", nc);
+    if(imc <= 22) {
+        printf("Peso Ideal\n");
+    }
 
-  ni = 23.45;
-  printf( "ni = %d\n", ni);
+    if((imc > 22) && (imc <27)) {
+        printf("Sobrepeso I\n");
+    }
 
-  nf = 34;
-  printf( "nf = %f\n", nf);
+    if((imc > 27) && (imc <30)) {
+        printf("Sobrepeso II\n");
+    }
 
-  ni = 'a';
-  printf( "%c - %d = %c\n", ni, 32, 'a' - 32);
+    if(imc >30) {
+        printf("Obesidade morbida");
+    }
 
-  system("PAUSE");
-  return 0;
+    return 0;
+
 }
