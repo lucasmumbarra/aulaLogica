@@ -1,7 +1,7 @@
 /*Name project: calculoEmprestimo.c
  * Author: Lucas Santos Mumbarra
  * RA: N034JB3
- * Date: 06/09/2022
+ * Date: 09/09/2022
  * Description: Calculate the INSS discount amount
  */
 
