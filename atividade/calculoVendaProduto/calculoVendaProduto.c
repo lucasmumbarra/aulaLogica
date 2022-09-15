@@ -31,11 +31,11 @@ int main() {
   if (valueProduct <= 20) {
     resaleValue = valueProduct + (valueProduct * profitFortyFive);
 
-    printf("O valor de revenda do seu produto sera de 45%%: %.2f", resaleValue);
+    printf("O valor de revenda do seu produto será de 45%%: %.2f", resaleValue);
   } else {
     resaleValue = valueProduct + (valueProduct * profitThirty);
 
-    printf("O valor de revenda do seu produto sera de 30%%: %.2f", resaleValue);
+    printf("O valor de revenda do seu produto será de 30%%: %.2f", resaleValue);
   }
 
   printf("\n");

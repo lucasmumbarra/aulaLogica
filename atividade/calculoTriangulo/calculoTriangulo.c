@@ -17,7 +17,7 @@ int main() {
 
   printf("\n");
   printf("|===========================================================|\n");
-  printf("|=========Calcular e descobrir a forma do triangulo=========|\n");
+  printf("|=========Calcular e descobrir a forma do triângulo=========|\n");
   printf("|===========================================================|\n");
   printf("\n");
   printf("\n");
@@ -33,19 +33,19 @@ int main() {
 
   if (a > b+c){
 
-    printf("Nao formam triangulo algum!\n");
+    printf("Não formam triângulo algum!\n");
 
   } else if ((a == b) && (a == c)) {
 
-    printf("Triangulo Equilatero!\n");
+    printf("Triângulo Equilátero!\n");
 
-  } else if ((a == b) || (b == c) || (a == c)) {
+  } else if ((a == b) || (b == c) || (a == c)) {,
 
-    printf("Triangulo Isosceles!\n");
+    printf("Triângulo Isósceles!\n");
 
   } else {
 
-    printf("Triangulo Escaleno!\n");
+    printf("Triângulo Escaleno!\n");
 
   }
 

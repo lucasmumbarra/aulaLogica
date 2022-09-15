@@ -17,16 +17,16 @@ int main() {
 
   printf("\n");
   printf("|=============================================|\n");
-  printf("|=======Calculadora de Linha de Credito=======|\n");
+  printf("|=======Calculadora de Linha de Crédito=======|\n");
   printf("|=============================================|\n");
   printf("\n");
   printf("\n");
 
-  printf("Digite o seu salario: ");
+  printf("Digite o seu salário: ");
   scanf("%f", &salaryCustomer);
   printf("\n");
 
-  printf("Digite o valor do emprestimo: ");
+  printf("Digite o valor do empréstimo: ");
   scanf("%f", &loanRequested);
   printf("\n");
 
@@ -34,13 +34,13 @@ int main() {
   grossAmount = salaryCustomer + loanRequested;
 
   if (grossAmount <= loan) {
-    printf("Parabens seu emprestimo foi aprovado!\n");
-    printf("Aproveite o maximo possivel!\n");
+    printf("Parabêns seu empréstimo foi aprovado!\n");
+    printf("Aproveite o máximo possivel!\n");
   } else {
-    printf("Ops! Seu emprestimo nao foi concedido!\n");
-    printf("O valor solicitado ultrapassou 30%% do seu salario!\n");
+    printf("Ops! Seu empréstimo não foi concedido!\n");
+    printf("O valor solicitado ultrapassou 30%% do seu salário!\n");
   }
-  
+
   printf("\n");
   printf("Processo encerrado!");
   printf("\n");
